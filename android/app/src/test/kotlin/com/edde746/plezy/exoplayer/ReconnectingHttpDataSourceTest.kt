@@ -218,10 +218,8 @@ private class FakeUpstreamHttpFactory(
   val instances = mutableListOf<FakeHttpDataSource>()
   var nextReadHook: (() -> Unit)? = null
 
-  override fun createDataSource(): HttpDataSource {
-    return FakeHttpDataSource(totalSize, responseCode, responseHeaders, this).also {
-      instances.add(it)
-    }
+  override fun createDataSource(): HttpDataSource = FakeHttpDataSource(totalSize, responseCode, responseHeaders, this).also {
+    instances.add(it)
   }
 
   override fun setDefaultRequestProperties(defaultRequestProperties: Map<String, String>): HttpDataSource.Factory = this
