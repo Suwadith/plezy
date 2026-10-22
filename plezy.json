@@ -1,0 +1,48 @@
+{
+  "name": "Plezy",
+  "identifier": "com.edde746.plezy.source",
+  "apiVersion": "v2",
+  "subtitle": "Plezy Client for Jellyfin & Plex",
+  "description": "AltStore, SideStore, Feather, and FlareStore source for Plezy with custom fixes for Jellyfin STRM playback, DTS-HD fallback, progressive buffer stall prevention, and audio track selection.",
+  "iconURL": "https://raw.githubusercontent.com/Suwadith/plezy/main/assets/icon.png",
+  "website": "https://github.com/Suwadith/plezy",
+  "sourceURL": "https://raw.githubusercontent.com/Suwadith/plezy/main/apps.json",
+  "apps": [
+    {
+      "name": "Plezy",
+      "bundleIdentifier": "com.edde746.plezy",
+      "developerName": "edde746",
+      "subtitle": "Plezy - Plex & Jellyfin Client",
+      "category": "entertainment",
+      "version": "2.24.1",
+      "versionDate": "2026-10-22",
+      "versionDescription": "Plezy v2.24.1 (All Fixes)\n\nIncluded Fixes:\n- HTTP .strm direct play (#2631)\n- DTS-HD audio fallback & MPV recovery (#2644)\n- ExoPlayer progressive buffer stall prevention (#2653)\n- Jellyfin active audio track selection (#2655)",
+      "downloadURL": "https://github.com/Suwadith/plezy/releases/download/v2.24.1/plezy-ios.ipa",
+      "size": 59932778,
+      "localizedDescription": "Plezy is a modern, lightweight media player client for Plex and Jellyfin servers, featuring native hardware decoding, Direct Play, and smooth playback.",
+      "iconURL": "https://raw.githubusercontent.com/Suwadith/plezy/main/assets/icon.png",
+      "tintColor": "E5A00D",
+      "screenshotURLs": [],
+      "appPermissions": {
+        "entitlements": [],
+        "privacy": {
+          "NSLocalNetworkUsageDescription": "This app needs to connect to your media servers on your local network.",
+          "NSLocationWhenInUseUsageDescription": "Plezy uses location access when iOS requires it to detect your local network and connect to your media servers.",
+          "NSPhotoLibraryUsageDescription": "Plezy needs photo library access so you can choose images to upload as media artwork.",
+          "NSCameraUsageDescription": "Camera is used to scan QR codes for Companion Remote pairing."
+        }
+      },
+      "versions": [
+        {
+          "version": "2.24.1",
+          "date": "2026-10-22",
+          "localizedDescription": "Release 2.24.1 with custom Jellyfin STRM playback, DTS-HD audio fallback, buffer stall prevention, and track selection fixes.",
+          "downloadURL": "https://github.com/Suwadith/plezy/releases/download/v2.24.1/plezy-ios.ipa",
+          "size": 59932778,
+          "minOSVersion": "15.0"
+        }
+      ]
+    }
+  ],
+  "news": []
+}
