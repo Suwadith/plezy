@@ -15,10 +15,10 @@
       "subtitle": "Plezy - Plex & Jellyfin Client",
       "category": "entertainment",
       "version": "2.24.1",
-      "versionDate": "2026-10-22",
-      "versionDescription": "Plezy v2.24.1 (All Fixes)\n\nIncluded Fixes:\n- HTTP .strm direct play (#2631)\n- DTS-HD audio fallback & MPV recovery (#2644)\n- ExoPlayer progressive buffer stall prevention (#2653)\n- Jellyfin active audio track selection (#2655)",
+      "versionDate": "2026-10-25",
+      "versionDescription": "Plezy v2.24.1 (All Fixes + Upstream Sync)\n\nIncluded Fixes & Features:\n- Integrated latest upstream commits (Jellyfin library rescan, context menu playlists, audio 10ms sync, direct play HUD)\n- HTTP .strm direct play (#2631)\n- DTS-HD audio fallback & MPV recovery (#2644)\n- ExoPlayer progressive buffer stall prevention (#2653)\n- Jellyfin active audio track selection (#2655)",
       "downloadURL": "https://github.com/Suwadith/plezy/releases/download/v2.24.1/plezy-ios.ipa",
-      "size": 59932778,
+      "size": 59933811,
       "localizedDescription": "Plezy is a modern, lightweight media player client for Plex and Jellyfin servers, featuring native hardware decoding, Direct Play, and smooth playback.",
       "iconURL": "https://raw.githubusercontent.com/Suwadith/plezy/main/assets/icon.png",
       "tintColor": "E5A00D",
@@ -35,10 +35,10 @@
       "versions": [
         {
           "version": "2.24.1",
-          "date": "2026-10-22",
-          "localizedDescription": "Release 2.24.1 with custom Jellyfin STRM playback, DTS-HD audio fallback, buffer stall prevention, and track selection fixes.",
+          "date": "2026-10-25",
+          "localizedDescription": "Release 2.24.1 (All Fixes + Upstream Sync) with custom Jellyfin STRM playback, DTS-HD audio fallback, buffer stall prevention, and track selection fixes.",
           "downloadURL": "https://github.com/Suwadith/plezy/releases/download/v2.24.1/plezy-ios.ipa",
-          "size": 59932778,
+          "size": 59933811,
           "minOSVersion": "15.0"
         }
       ]
