@@ -14,11 +14,11 @@
       "developerName": "edde746",
       "subtitle": "Plezy - Plex & Jellyfin Client",
       "category": "entertainment",
-      "version": "2.24.2",
-      "versionDate": "2026-10-25",
-      "versionDescription": "Plezy v2.24.2 (All Fixes + Upstream Sync)\n\nIncluded Fixes & Features:\n- Integrated latest upstream commits (Jellyfin library rescan, context menu playlists, audio 10ms sync, direct play HUD)\n- HTTP .strm direct play (#2631)\n- DTS-HD audio fallback & MPV recovery (#2644)\n- ExoPlayer progressive buffer stall prevention (#2653)\n- Jellyfin active audio track selection (#2655)",
-      "downloadURL": "https://github.com/Suwadith/plezy/releases/download/v2.24.2/plezy-ios-2.24.2.ipa",
-      "size": 59933850,
+      "version": "2.25.0",
+      "versionDate": "2026-10-27",
+      "versionDescription": "Plezy v2.25.0 (All Fixes + Upstream Sync)\n\nUpstream 2.25.0 Features & Improvements:\n- Host-clock presentation on iOS, iPadOS, and macOS for ultra-smooth video & seek sync\n- Picture in Picture seeks synchronized across iPhone and iPad\n- On-device classifier for intro and credits chapter skipping\n- Android mpv loudness normalization via compressor & limiter\n- Deep-links support (plezy://) to switch profiles and play titles on all platforms\n- Keep macOS traffic lights in place after exiting fullscreen\n- Jellyfin recently added page pagination and playlist context menus\n\nCustom Fixes Included:\n- HTTP .strm direct play (#2631)\n- DTS-HD audio fallback & MPV recovery (#2644)\n- ExoPlayer progressive buffer stall prevention (#2653)\n- Jellyfin active audio track selection (#2655)",
+      "downloadURL": "https://github.com/Suwadith/plezy/releases/download/v2.25.0/plezy-ios-2.25.0.ipa",
+      "size": 60136414,
       "localizedDescription": "Plezy is a modern, lightweight media player client for Plex and Jellyfin servers, featuring native hardware decoding, Direct Play, and smooth playback.",
       "iconURL": "https://raw.githubusercontent.com/Suwadith/plezy/main/assets/icon.png",
       "tintColor": "E5A00D",
@@ -34,9 +34,17 @@
       },
       "versions": [
         {
+          "version": "2.25.0",
+          "date": "2026-10-27",
+          "localizedDescription": "Release 2.25.0 (All Fixes + Upstream Sync) with custom Jellyfin STRM playback, DTS-HD audio fallback, buffer stall prevention, and track selection fixes.",
+          "downloadURL": "https://github.com/Suwadith/plezy/releases/download/v2.25.0/plezy-ios-2.25.0.ipa",
+          "size": 60136414,
+          "minOSVersion": "15.0"
+        },
+        {
           "version": "2.24.2",
           "date": "2026-10-25",
-          "localizedDescription": "Release 2.24.2 (All Fixes + Upstream Sync) with custom Jellyfin STRM playback, DTS-HD audio fallback, buffer stall prevention, and track selection fixes.",
+          "localizedDescription": "Release 2.24.2 (All Fixes + Upstream Sync)",
           "downloadURL": "https://github.com/Suwadith/plezy/releases/download/v2.24.2/plezy-ios-2.24.2.ipa",
           "size": 59933850,
           "minOSVersion": "15.0"
