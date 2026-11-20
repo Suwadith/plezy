@@ -1,0 +1,87 @@
+{
+  "name": "Plezy",
+  "identifier": "com.edde746.plezy.source",
+  "apiVersion": "v2",
+  "subtitle": "Plezy Client for Jellyfin & Plex",
+  "description": "AltStore, SideStore, Feather, and FlareStore source for Plezy with custom fixes for iOS 27 external-display playback, Jellyfin STRM playback, DTS-HD fallback, progressive buffer stall prevention, and audio track selection.",
+  "iconURL": "https://raw.githubusercontent.com/Suwadith/plezy/main/assets/icon.png",
+  "website": "https://github.com/Suwadith/plezy",
+  "apps": [
+    {
+      "name": "Plezy",
+      "bundleIdentifier": "com.edde746.plezy",
+      "developerName": "edde746",
+      "subtitle": "Plezy - Plex & Jellyfin Client",
+      "category": "entertainment",
+      "version": "2.26.1",
+      "versionDate": "2026-11-20",
+      "versionDescription": "Plezy v2.26.1 (Upstream Sync + iOS 27 External Display & Custom Fixes)\n\nIncluded Updates:\n- Official iOS 27 SDK external-display scene accessory registration (#2471)\n- Enhanced external display lock screen background playback and auto-pause on disconnect (#2729)\n- PiP controller startup and auto-PiP fixes (#2729, upstream)\n- Fire TV Dolby Vision / Samsung HDR10+ metadata filter\n- Android MPV performance optimization (unloads unused Lua scripts)\n- 25/30 fps refresh rate doubling to 50/60 Hz\n- iOS & macOS purgeable space calculation for downloads\n- Plex server offline retry and reconnection resilience\n- Custom Jellyfin STRM direct-play (#2631)\n- Custom DTS-HD audio fallback & MPV recovery (#2644)\n- Custom ExoPlayer buffer stall prevention (#2653)\n- Custom Jellyfin active audio track mapping (#2655)",
+      "downloadURL": "https://github.com/Suwadith/plezy/releases/download/v2.26.1/plezy-ios-2.26.1.ipa",
+      "size": 60876626,
+      "localizedDescription": "Plezy is a modern, lightweight media player client for Plex and Jellyfin servers, featuring native hardware decoding, Direct Play, and smooth playback.",
+      "iconURL": "https://raw.githubusercontent.com/Suwadith/plezy/main/assets/icon.png",
+      "tintColor": "E5A00D",
+      "screenshotURLs": [],
+      "appPermissions": {
+        "entitlements": [],
+        "privacy": {
+          "NSLocalNetworkUsageDescription": "This app needs to connect to your media servers on your local network.",
+          "NSLocationWhenInUseUsageDescription": "Plezy uses location access when iOS requires it to detect your local network and connect to your media servers.",
+          "NSPhotoLibraryUsageDescription": "Plezy needs photo library access so you can choose images to upload as media artwork.",
+          "NSCameraUsageDescription": "Camera is used to scan QR codes for Companion Remote pairing."
+        }
+      },
+      "versions": [
+        {
+          "version": "2.26.1",
+          "date": "2026-11-20",
+          "localizedDescription": "Release 2.26.1 with upstream main updates (iOS 27 external-display scene accessory, Fire TV HDR10+/DV filter, 50/60Hz refresh rate doubling, purgeable download storage) plus iOS 27 lock-screen playback & auto-pause (#2729), Jellyfin STRM direct-play (#2631), DTS-HD fallback (#2644), ExoPlayer buffer stall prevention (#2653), and audio track mapping (#2655).",
+          "downloadURL": "https://github.com/Suwadith/plezy/releases/download/v2.26.1/plezy-ios-2.26.1.ipa",
+          "size": 60876626,
+          "minOSVersion": "15.0"
+        },
+        {
+          "version": "2.26.0",
+          "date": "2026-11-09",
+          "localizedDescription": "Release 2.26.0 with Upstream 2.26.0 features (32-bit Android optimization, library shuffle, genres tab, zoom memory, audio passthrough fixes) plus iOS 27 external-display playback (#2729), Jellyfin STRM playback (#2631), DTS-HD fallback (#2644), ExoPlayer buffer stall prevention (#2653), and audio track mapping (#2655).",
+          "downloadURL": "https://github.com/Suwadith/plezy/releases/download/v2.26.0/plezy-ios-2.26.0.ipa",
+          "size": 60741104,
+          "minOSVersion": "15.0"
+        },
+        {
+          "version": "2.25.1",
+          "date": "2026-11-08",
+          "localizedDescription": "Release 2.25.1 with iOS 27 external-display playback restoration (#2729), custom Jellyfin STRM playback, DTS-HD audio fallback, buffer stall prevention, and track selection fixes.",
+          "downloadURL": "https://github.com/Suwadith/plezy/releases/download/v2.25.1/plezy-ios-2.25.1.ipa",
+          "size": 60136425,
+          "minOSVersion": "15.0"
+        },
+        {
+          "version": "2.25.0",
+          "date": "2026-10-27",
+          "localizedDescription": "Release 2.25.0 (All Fixes + Upstream Sync)",
+          "downloadURL": "https://github.com/Suwadith/plezy/releases/download/v2.25.0/plezy-ios-2.25.0.ipa",
+          "size": 60136414,
+          "minOSVersion": "15.0"
+        },
+        {
+          "version": "2.24.2",
+          "date": "2026-10-25",
+          "localizedDescription": "Release 2.24.2 (All Fixes + Upstream Sync)",
+          "downloadURL": "https://github.com/Suwadith/plezy/releases/download/v2.24.2/plezy-ios-2.24.2.ipa",
+          "size": 59933850,
+          "minOSVersion": "15.0"
+        },
+        {
+          "version": "2.24.1",
+          "date": "2026-10-25",
+          "localizedDescription": "Release 2.24.1 (All Fixes + Upstream Sync)",
+          "downloadURL": "https://github.com/Suwadith/plezy/releases/download/v2.24.1/plezy-ios.ipa",
+          "size": 59933811,
+          "minOSVersion": "15.0"
+        }
+      ]
+    }
+  ],
+  "news": []
+}
