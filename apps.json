@@ -13,11 +13,11 @@
       "developerName": "edde746",
       "subtitle": "Plezy - Plex & Jellyfin Client",
       "category": "entertainment",
-      "version": "2.26.1",
-      "versionDate": "2026-11-20",
-      "versionDescription": "Plezy v2.26.1 (Upstream Sync + iOS 27 External Display & Custom Fixes)\n\nIncluded Updates:\n- Official iOS 27 SDK external-display scene accessory registration (#2471)\n- Enhanced external display lock screen background playback and auto-pause on disconnect (#2729)\n- PiP controller startup and auto-PiP fixes (#2729, upstream)\n- Fire TV Dolby Vision / Samsung HDR10+ metadata filter\n- Android MPV performance optimization (unloads unused Lua scripts)\n- 25/30 fps refresh rate doubling to 50/60 Hz\n- iOS & macOS purgeable space calculation for downloads\n- Plex server offline retry and reconnection resilience\n- Custom Jellyfin STRM direct-play (#2631)\n- Custom DTS-HD audio fallback & MPV recovery (#2644)\n- Custom ExoPlayer buffer stall prevention (#2653)\n- Custom Jellyfin active audio track mapping (#2655)",
-      "downloadURL": "https://github.com/Suwadith/plezy/releases/download/v2.26.1/plezy-ios-2.26.1.ipa",
-      "size": 60876626,
+      "version": "2.26.2",
+      "versionDate": "2026-11-25",
+      "versionDescription": "Plezy v2.26.2 (Upstream Sync + iOS 27 External Display & Custom Fixes)\n\nIncluded Updates:\n- PiP playback now stops at the end when auto-play next is off\n- Watch Together guests can skip credits that run to the end of the file\n- TV D-pad navigation reaches the profile menu from an empty Home screen\n- Official iOS 27 SDK external-display scene accessory registration (#2471)\n- Enhanced external display lock screen background playback and auto-pause on disconnect (#2729)\n- Custom Jellyfin STRM direct-play (#2631)\n- Custom DTS-HD audio fallback & MPV recovery (#2644)\n- Custom ExoPlayer buffer stall prevention (#2653)\n- Custom Jellyfin active audio track mapping (#2655)",
+      "downloadURL": "https://github.com/Suwadith/plezy/releases/download/v2.26.2/plezy-ios-2.26.2.ipa",
+      "size": 60878026,
       "localizedDescription": "Plezy is a modern, lightweight media player client for Plex and Jellyfin servers, featuring native hardware decoding, Direct Play, and smooth playback.",
       "iconURL": "https://raw.githubusercontent.com/Suwadith/plezy/main/assets/icon.png",
       "tintColor": "E5A00D",
@@ -32,6 +32,14 @@
         }
       },
       "versions": [
+        {
+          "version": "2.26.2",
+          "date": "2026-11-25",
+          "localizedDescription": "Release 2.26.2 with upstream main fixes (PiP playback end, Watch Together credit skip, TV empty-home D-pad profile navigation) plus all custom fixes.",
+          "downloadURL": "https://github.com/Suwadith/plezy/releases/download/v2.26.2/plezy-ios-2.26.2.ipa",
+          "size": 60878026,
+          "minOSVersion": "15.0"
+        },
         {
           "version": "2.26.1",
           "date": "2026-11-20",
